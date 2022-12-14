@@ -162,6 +162,7 @@ create_pkgdown_yaml <- function(path) {
   yaml <- whisker::whisker.render(yaml, 
     data = list(
       # Basic information
+      lang    = if (is.null(usr$lang)) NULL else siQuote(usr$lang),
       version = siQuote(utils::packageVersion("sandpaper")),
       config  = siQuote(path_config(path)),
       title   = siQuote(usr$title),
