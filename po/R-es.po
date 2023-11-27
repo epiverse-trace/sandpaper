@@ -13,44 +13,44 @@ msgstr ""
 
 #: build_404.R:57
 msgid "Page not found"
-msgstr ""
+msgstr "Página no encontrada"
 
 #: build_aio.R:6
 msgid "All in One View"
-msgstr ""
+msgstr "Todo en Una Sola Página"
 
 #: build_episode.R:134
 msgid "Home"
-msgstr ""
+msgstr "Hogar"
 
 #: build_home.R:49
 msgid "Summary and Schedule"
-msgstr ""
+msgstr "Resumen y Cronograma"
 
 #: build_home.R:58
 msgid "Summary and Setup"
-msgstr ""
+msgstr "Resumen y Configuración"
 
 #: build_home.R:100
 msgid "Finish"
-msgstr ""
+msgstr "Fin"
 
 #: build_images.R:6
 msgid "All Images"
-msgstr ""
+msgstr "Todas las Imágenes"
 
 #: build_instructor_notes.R:27
 msgid "Instructor Notes"
-msgstr ""
+msgstr "Notas del Instructor"
 
 #: build_keypoints.R:6 utils-translate.R:11
 msgid "Key Points"
-msgstr ""
+msgstr "Puntos Clave"
 
 #: build_profiles.R:16
 msgid "Learner Profiles"
-msgstr ""
+msgstr "Perfiles de Aprendiz"
 
 #: utils-translate.R:12
 msgid "See all in one page"
-msgstr ""
+msgstr "Ver todo en una sola página"
