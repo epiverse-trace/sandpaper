@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sandpaper 0.14.1.9000\n"
-"POT-Creation-Date: 2023-11-23 20:59+0900\n"
+"POT-Creation-Date: 2023-12-01 14:41-0800\n"
 "PO-Revision-Date: 2023-11-23 20:59+0900\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,15 +19,15 @@ msgstr "Página no encontrada"
 msgid "All in One View"
 msgstr "Todo en Una Sola Página"
 
-#: build_episode.R:134
+#: build_episode.R:134 utils-translate.R:41
 msgid "Home"
 msgstr "Hogar"
 
-#: build_home.R:49
+#: build_home.R:49 utils-translate.R:98 utils-varnish.R:87
 msgid "Summary and Schedule"
 msgstr "Resumen y Cronograma"
 
-#: build_home.R:58
+#: build_home.R:58 utils-translate.R:94 utils-varnish.R:95
 msgid "Summary and Setup"
 msgstr "Resumen y Configuración"
 
@@ -39,18 +39,297 @@ msgstr "Fin"
 msgid "All Images"
 msgstr "Todas las Imágenes"
 
-#: build_instructor_notes.R:27
+#: build_instructor_notes.R:27 utils-translate.R:31
 msgid "Instructor Notes"
 msgstr "Notas del Instructor"
 
-#: build_keypoints.R:6 utils-translate.R:11
+#: build_keypoints.R:6 utils-translate.R:30 utils-xml.R:172
 msgid "Key Points"
 msgstr "Puntos Clave"
 
-#: build_profiles.R:16
+#: build_profiles.R:16 utils-translate.R:33
 msgid "Learner Profiles"
 msgstr "Perfiles de Aprendiz"
 
-#: utils-translate.R:12
+#: utils-translate.R:17
+msgid "Skip to main content"
+msgstr ""
+
+#: utils-translate.R:18
+msgid "Pre-Alpha"
+msgstr ""
+
+#: utils-translate.R:19
+msgid ""
+"This lesson is in the pre-alpha phase, which means that it is in early "
+"development, but has not yet been taught."
+msgstr ""
+
+#: utils-translate.R:20
+msgid ""
+"This lesson is in the alpha phase, which means that it has been taught once "
+"and lesson authors are iterating on feedback."
+msgstr ""
+
+#: utils-translate.R:21
+msgid "Alpha"
+msgstr ""
+
+#: utils-translate.R:22
+msgid ""
+"This lesson is in the beta phase, which means that it is ready for teaching "
+"by instructors outside of the original author team."
+msgstr ""
+
+#: utils-translate.R:23
+msgid "Beta"
+msgstr ""
+
+#: utils-translate.R:24
+msgid "This lesson has passed peer review."
+msgstr ""
+
+#: utils-translate.R:25
+#, fuzzy
+#| msgid "Instructor Notes"
+msgid "Instructor View"
+msgstr "Notas del Instructor"
+
+#: utils-translate.R:26
+#, fuzzy
+#| msgid "Learner Profiles"
+msgid "Learner View"
+msgstr "Perfiles de Aprendiz"
+
+#: utils-translate.R:27
+msgid "Main Navigation"
+msgstr ""
+
+#: utils-translate.R:28
+msgid "search button"
+msgstr ""
+
+#: utils-translate.R:29
+msgid "Setup"
+msgstr ""
+
+#: utils-translate.R:32
+msgid "Glossary"
+msgstr ""
+
+#: utils-translate.R:34
+msgid "More"
+msgstr ""
+
+#: utils-translate.R:35
+msgid "Search"
+msgstr ""
+
+#: utils-translate.R:36
+msgid "Lesson Progress"
+msgstr ""
+
+#: utils-translate.R:39
+msgid "close menu"
+msgstr ""
+
+#: utils-translate.R:40
+msgid "EPISODES"
+msgstr ""
+
+#: utils-translate.R:42
+msgid "Home Page Navigation"
+msgstr ""
+
+#: utils-translate.R:43
+msgid "RESOURCES"
+msgstr ""
+
+#: utils-translate.R:44
+#, fuzzy
+#| msgid "All Images"
+msgid "Extract All Images"
+msgstr "Todas las Imágenes"
+
+#: utils-translate.R:45
 msgid "See all in one page"
 msgstr "Ver todo en una sola página"
+
+#: utils-translate.R:46
+msgid "Download Lesson Handout"
+msgstr ""
+
+#: utils-translate.R:47
+msgid "Export Chapter Slides"
+msgstr ""
+
+#: utils-translate.R:50
+msgid "Previous and Next Chapter"
+msgstr ""
+
+#: utils-translate.R:51
+msgid "Previous"
+msgstr ""
+
+#: utils-translate.R:52
+msgid "Estimated time: {% icons$clock %} {% minutes %} minutes"
+msgstr ""
+
+#: utils-translate.R:53
+msgid "Next"
+msgstr ""
+
+#: utils-translate.R:54
+msgid "Next Chapter"
+msgstr ""
+
+#: utils-translate.R:55
+msgid "Last updated on {% updated %}"
+msgstr ""
+
+#: utils-translate.R:56
+msgid "Edit this page"
+msgstr ""
+
+#: utils-translate.R:57
+msgid "Expand All Solutions"
+msgstr ""
+
+#: utils-translate.R:60
+msgid "Setup Instructions"
+msgstr ""
+
+#: utils-translate.R:61
+msgid "Download files required for the lesson"
+msgstr ""
+
+#: utils-translate.R:62
+msgid ""
+"The actual schedule may vary slightly depending on the topics and exercises "
+"chosen by the instructor."
+msgstr ""
+
+#: utils-translate.R:65
+msgid "Back To Top"
+msgstr ""
+
+#: utils-translate.R:66
+msgid "Menu"
+msgstr ""
+
+#: utils-translate.R:67
+msgid "This lesson is subject to the <(Code of Conduct)>"
+msgstr ""
+
+#: utils-translate.R:68
+msgid "Code of Conduct"
+msgstr ""
+
+#: utils-translate.R:69
+msgid "Edit on GitHub"
+msgstr ""
+
+#: utils-translate.R:70
+msgid "Contributing"
+msgstr ""
+
+#: utils-translate.R:71
+msgid "Source"
+msgstr ""
+
+#: utils-translate.R:72
+msgid "Cite"
+msgstr ""
+
+#: utils-translate.R:73
+msgid "Contact"
+msgstr ""
+
+#: utils-translate.R:74
+msgid "About"
+msgstr ""
+
+#: utils-translate.R:75
+msgid "Materials licensed under {% license %} by {% authors %}"
+msgstr ""
+
+#: utils-translate.R:76
+msgid "Template licensed under <(CC-BY 4.0)> by {% template_authors %}"
+msgstr ""
+
+#: utils-translate.R:77
+msgid "The Carpentries"
+msgstr ""
+
+#: utils-translate.R:78
+msgid ""
+"Built with {% sandpaper_link %}, {% pegboard_link %}, and {% varnish_link %}"
+msgstr ""
+
+#: utils-translate.R:81
+msgid "Give Feedback"
+msgstr ""
+
+#: utils-translate.R:82
+#, fuzzy
+#| msgid "Learner Profiles"
+msgid "Learn More"
+msgstr "Perfiles de Aprendiz"
+
+#: utils-xml.R:84
+msgid "anchor"
+msgstr ""
+
+#: utils-xml.R:111
+msgid "Questions"
+msgstr ""
+
+#: utils-xml.R:112
+msgid "Objectives"
+msgstr ""
+
+#: utils-xml.R:113
+msgid "Overview"
+msgstr ""
+
+#: utils-xml.R:163
+msgid "Callout"
+msgstr ""
+
+#: utils-xml.R:164
+msgid "Challenge"
+msgstr ""
+
+#: utils-xml.R:165
+msgid "Prerequisite"
+msgstr ""
+
+#: utils-xml.R:166
+msgid "Checklist"
+msgstr ""
+
+#: utils-xml.R:167
+msgid "Solution"
+msgstr ""
+
+#: utils-xml.R:168
+msgid "Hint"
+msgstr ""
+
+#: utils-xml.R:169
+msgid "Spoiler"
+msgstr ""
+
+#: utils-xml.R:170
+msgid "Discussion"
+msgstr ""
+
+#: utils-xml.R:171
+msgid "Testimonial"
+msgstr ""
+
+#: utils-xml.R:173
+#, fuzzy
+#| msgid "Instructor Notes"
+msgid "Instructor Note"
+msgstr "Notas del Instructor"
