@@ -179,6 +179,12 @@
   access top the lists of translated strings. These have replaced the `tr_()`
   strings at the point of generation.
 
+## BUG FIX
+
+* `manage_deps()` can now provision a GitHub package from the lockfile if it was
+  not previously installed on the system (reported: @pratikunterwegs,
+  carpentries/actions#32; fixed: @zkamvar, #533)
+
 # sandpaper 0.16.1 (2023-12-14)
 
 ## BUG FIX
